@@ -1,0 +1,154 @@
+{
+  "1": {
+    "name": "Mainnet",
+    "status": "ok",
+    "type": "production",
+    "explorerAddress": "https://etherscan.io/address/%s",
+    "explorerTx": "https://etherscan.io/tx/%s",
+    "rpc": "https://eth-mainnet.alchemyapi.io/v2/2pT9LJbbjuBhaVTmaQoE3wyIWJcHotYU",
+    "multitransferAddress": "0x8A50Aad065BEd0f138bcF3ce6ccbaE87748EF2a7"
+  },
+  "3": {
+    "name": "Ropsten",
+    "status": "error",
+    "type": "test",
+    "explorerAddress": "https://ropsten.etherscan.io/address/%s",
+    "explorerTx": "https://ropsten.etherscan.io/tx/%s",
+    "faucet": "https://faucet.ropsten.be/",
+    "rpc": "https://eth-ropsten.alchemyapi.io/v2/AkNG6siuaC2LDNxNzsc9BkUm0m9VOXqt"
+  },
+  "4": {
+    "name": "Rinkeby",
+    "status": "error",
+    "type": "test",
+    "explorerAddress": "https://rinkeby.etherscan.io/address/%s",
+    "explorerTx": "https://rinkeby.etherscan.io/tx/%s",
+    "faucet": "http://rinkeby-faucet.com/",
+    "rpc": "https://eth-rinkeby.alchemyapi.io/v2/PVG3Cru0vP_9TCEnM73qXuqkNxlEkdf4"
+  },
+  "5": {
+    "name": "Görli",
+    "status": "error",
+    "type": "test",
+    "explorerAddress": "https://goerli.etherscan.io/address/%s",
+    "explorerTx": "https://goerli.etherscan.io/tx/%s",
+    "faucet": "https://goerli-faucet.slock.it/",
+    "rpc": "https://eth-goerli.alchemyapi.io/v2/CE7523yco5hm0ZbSyBDQK6gGnYYD79nj",
+    "multitransferAddress": "0x5160b31B96fa28494BFd5Eb43310b4469845eD7F"
+  },
+  "10": {
+    "name": "Optimistic Ethereum",
+    "status": "warn",
+    "type": "production",
+    "explorerAddress": "https://optimistic.etherscan.io/address/%s",
+    "explorerTx": "https://optimistic.etherscan.io/tx/%s",
+    "rpc": "https://optimistic.etherscan.io"
+  },
+  "42": {
+    "name": "Kovan",
+    "status": "error",
+    "type": "test",
+    "explorerAddress": "https://kovan.etherscan.io/address/%s",
+    "explorerTx": "https://kovan.etherscan.io/tx/%s",
+    "faucet": "https://enjin.io/software/kovan-faucet",
+    "rpc": "https://eth-kovan.alchemyapi.io/v2/rdvmCipeQJZw2p_oTdgp3ELyueWmlrVz"
+  },
+  "56": {
+    "name": "Binance Smart Chain",
+    "status": "warn",
+    "type": "production",
+    "getLogsLimit": 5000,
+    "explorerAddress": "https://bscscan.com/address/%s",
+    "explorerTx": "https://bscscan.com/tx/%s",
+    "rpc": "https://bsc-dataseed.binance.org/"
+  },
+  "77": {
+    "name": "Sokol",
+    "status": "error",
+    "type": "test",
+    "explorerAddress": "https://blockscout.com/poa/sokol/address/%s",
+    "explorerTx": "https://blockscout.com/poa/sokol/tx/%s",
+    "faucet": "https://faucet.poa.network/",
+    "rpc": "https://sokol.poa.network"
+  },
+  "97": {
+    "name": "Binance Smart Chain Testnet",
+    "status": "error",
+    "type": "test",
+    "getLogsLimit": 5000,
+    "explorerAddress": "https://testnet.bscscan.com/address/%s",
+    "explorerTx": "https://testnet.bscscan.com/tx/%s",
+    "faucet": "https://testnet.binance.org/faucet-smart",
+    "rpc": "https://data-seed-prebsc-1-s1.binance.org:8545/"
+  },
+  "100": {
+    "name": "xDAI",
+    "status": "warn",
+    "type": "production",
+    "explorerAddress": "https://blockscout.com/xdai/mainnet/address/%s",
+    "explorerTx": "https://blockscout.com/xdai/mainnet/tx/%s",
+    "rpc": "https://dai.poa.network",
+    "multitransferAddress": "0x49ad0FE596a042f55757BE4c39c237AaDC6Af1BB"
+  },
+  "137": {
+    "name": "Polygon (Matic) Mainnet",
+    "status": "warn",
+    "type": "production",
+    "getLogsLimit": 10000,
+    "explorerAddress": "https://polygonscan.com/address/%s",
+    "explorerTx": "https://polygonscan.com/tx/%s",
+    "rpc": "https://polygon-rpc.com/",
+    "multitransferAddress": "0xc2133B463071BF34FEB7D13BaaD2bBA88AD520eB"
+  },
+  "250": {
+    "name": "Fantom Opera",
+    "status": "warn",
+    "type": "production",
+    "explorerAddress": "https://ftmscan.com/address/%s",
+    "explorerTx": "https://ftmscan.com/tx/%s",
+    "rpc": "https://rpcapi.fantom.network/"
+  },
+  "4002": {
+    "name": "Fantom Testnet",
+    "status": "error",
+    "type": "test",
+    "faucet": "https://faucet.fantom.network/",
+    "rpc": "https://rpc.testnet.fantom.network/"
+  },
+  "20066": {
+    "name": "TestNet",
+    "status": "error",
+    "type": "test"
+  },
+  "31337": {
+    "name": "Localhost",
+    "status": "error",
+    "type": "test",
+    "rpc": "http://localhost:8545"
+  },
+  "42161": {
+    "name": "Arbitrum One",
+    "status": "warn",
+    "type": "production",
+    "explorerAddress": "https://arbiscan.io/address/%s",
+    "explorerTx": "https://arbiscan.io/tx/%s",
+    "rpc": "https://arb1.arbitrum.io/rpc"
+  },
+  "43114": {
+    "name": "Avalanche",
+    "status": "warn",
+    "type": "production",
+    "explorerAddress": "https://cchain.explorer.avax.network/address/%s",
+    "explorerTx": "https://cchain.explorer.avax.network//tx/%s",
+    "rpc": "https://api.avax.network/ext/bc/C/rpc"
+  },
+  "80001": {
+    "name": "Polygon (Matic) Mumbai Testnet",
+    "status": "error",
+    "type": "test",
+    "explorerAddress": "https://explorer-mumbai.maticvigil.com/address/%s",
+    "explorerTx": "https://explorer-mumbai.maticvigil.com/tx/%s",
+    "faucet": "https://faucet.matic.network",
+    "rpc": "https://rpc-mumbai.matic.today"
+  }
+}
